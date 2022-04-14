@@ -14,6 +14,12 @@ sizePicker.addEventListener("submit", function(event) {
   
   makeGrid(height, width);
 });
+/*
+**@desc Function that creates a grid using 2 parameters
+**@param height which creates the grid rows and 
+**@param width which creates the grid columns
+**Added event listeners to allow user to choose colors 
+**To add to each cell of the grid */
 
 function makeGrid(height, width) {
   canvas.innerHTML = '';
